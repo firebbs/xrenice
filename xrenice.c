@@ -1,3 +1,11 @@
+/*
+ * $Id: xrenice.c,v 1.0 2013/07/20 01:16:28  $
+ *
+ * Copyright (c) 2013 
+ * Konstantin Kosenkov <firebbs@ya.ru>
+ *
+ */
+
 #include "config.h"
 #include <sys/resource.h>
 #include <X11/Xlib.h>
