@@ -5,6 +5,8 @@ xrenice - utility alters the scheduling priority of one or more running processe
 <pre>
 You can choose window by cursor (like xkill or xprop) to change priority.
 usage:  xrenice [-p priority]
+or
+[XRENICEPRIO=prioritet] xrenice
 By default program using highest priority: -20
 You can set custom priority using enviroment XRENICEPRIO or argument -p.
 Arguments:
