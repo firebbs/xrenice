@@ -1,0 +1,28 @@
+.TH XPROP 1 "xrenice 1.0" "X Version 11"
+.SH NAME
+xrenice - get/set process priority by its X resource
+.SH SYNOPSIS
+.B "xrenice"
+[-help] [-g] [-p \fIprioritet\fP] 
+.SH SUMMARY
+.PP
+The
+.I xrenice
+utility alters the scheduling priority of one or more running processes by its X resource.
+.SH OPTIONS
+.PP
+.TP 8
+.B "-help"
+Print out a summary of command line options.
+.PP
+.TP 8
+.B "-p"
+Sets custom priority
+.PP
+.TP 8
+.B "XRENICEPRIO"
+Sets custom priority by enviroments option. i.e: "XRENICEPRIO=-10 xrenice"
+.PP
+.TP 8
+
+Konstantin Kosenkov, Klondike2k
