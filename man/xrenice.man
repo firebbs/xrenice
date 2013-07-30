@@ -9,6 +9,8 @@ xrenice - get/set process priority by its X resource
 The
 .I xrenice
 utility alters the scheduling priority of one or more running processes by its X resource.
+By default program using highest priority: -20.
+For unpriveledged users, to set set priority less than zero, xrenice can be used with su, sudo or SUID/SGID.
 .SH OPTIONS
 .PP
 .TP 8
